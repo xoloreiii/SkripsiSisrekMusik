@@ -41,7 +41,7 @@ else:
 df = df.reset_index(drop=True)
 
 # opsional: batasi data biar ringan
-df = df.head(4000)
+df = df.head(3000)
 
 # =========================
 # CLEAN ARTIST
